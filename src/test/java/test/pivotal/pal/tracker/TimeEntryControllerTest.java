@@ -21,6 +21,7 @@ public class TimeEntryControllerTest {
     private TimeEntryRepository timeEntryRepository;
     private TimeEntryController controller;
 
+
     @BeforeEach
     public void setUp() {
         timeEntryRepository = mock(TimeEntryRepository.class);
